@@ -24,8 +24,17 @@ bot.on('message', data => {
         return;
     }
 
-    console.log(data);
+
+
+    handleMessage(data.text);
 });
+
+// Respond to data
+function handleMessage(message) {
+    if(message.includes('portable', 'portability')) {
+
+    }
+}
 /*we need to set this up in Heroku I believe. 
 The auth token changes every time, and I have to re-copy and paste the new auth code every time I run npm start. Strange, but we'll figure out the solution.
 */
