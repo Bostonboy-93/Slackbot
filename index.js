@@ -31,7 +31,7 @@ bot.on('message', data => {
 
 // Respond to data
 function handleMessage(message) {
-    if(message.includes('portable', 'portability')) {
+    if(message.includes('portabl', 'portability')) {
 
     }
 }
